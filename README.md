@@ -1,8 +1,8 @@
 # Explanation
 This is my second CRUD app and my first time using useEffect and an API. To better learn these skills, I decided to make
-this application which, given a category, generates a random excuse from the Excuser API. I chose this API because it provided
-simple information and was free. I didn't use any components for this project since I felt that it was too simple to necesitate
-having to split it and since nothing is "reused". I also added a little "animation" evertime an excuse is picked.
+this application, which, given a category, generates a random excuse from the Excuser API. I chose this API because it provided
+simple information and was free. I didn't use any components for this project since I felt that it was too simple to necessitate
+having to split it and since nothing is "reused." I also added a little "animation" whenever an excuse is picked.
 
 # Getting Started with Create React App
 
