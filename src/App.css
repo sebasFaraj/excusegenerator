@@ -1,38 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+*{
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+  background-color: #cfcfcf;
+  margin: 0px;
+}
+
 .App {
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.Header {
+  background-color: rgb(66, 66, 66);
+  color: white;
+  padding: 1rem;
+  box-shadow: black 0px 3px 5px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.Main {
+  background-color: #ffffff;
+  height: 50vh;
+  width: 80%;
+  border: 5px black solid;
+  margin: 1rem auto;
+  padding: 10px;
   display: flex;
   flex-direction: column;
+  justify-content: space-around;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.topRow{
+  background-color: rgb(66,66,66);
+  border-radius: 5px;
+  border: 2px black solid;
+  width: 50%;
+  height: 20vh;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+#excuseTypes{
+  font-family: inherit;
+  font-weight: bold;
+  width: 30%;
+  height: 20%;
+  text-align: center;
+  background-color: #e0e0e0;
+  border-radius: 5px;
+}
+
+.generateExcuse{
+  font-family: inherit;
+  font-weight: bold;
+  padding: 0.7rem;
+  font-size: 1.2rem;
+  border-radius: 5px;
+  border: none;
+  background-color: rgb(181, 181, 181);
+}
+
+.bottomRow{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+#excuseHeader{
+  text-align: start;
+}
+
+#excuse{
+  font-weight: 500;
 }
