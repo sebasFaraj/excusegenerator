@@ -1,3 +1,6 @@
+# LIVE VERSION
+https://excusegenerator-faraj-8740cc3dbddb.herokuapp.com/
+
 # Explanation
 This is my second CRUD app and my first time using useEffect and an API. To better learn these skills, I decided to make
 this application, which, given a category, generates a random excuse from the Excuser API. I chose this API because it provided
