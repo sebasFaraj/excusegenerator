@@ -80,3 +80,24 @@ body {
 #excuse{
   font-weight: 500;
 }
+
+
+@media (max-width: 700px)
+{
+  :root{
+    font-size: 14px;
+  }
+
+  .topRow{
+    flex-direction: column;
+    padding: 1rem;
+  }
+
+  #excuseTypes{
+    width: 80%;
+  }
+
+  .Main{
+    height: 70vh;
+  }
+}
